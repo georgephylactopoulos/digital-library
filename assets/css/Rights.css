@@ -1,0 +1,18 @@
+body { 
+        padding-top: 70px;
+        background-color:#eef4f7;
+}
+
+.jumbotron {
+        background: url('../img/judge.jpg') no-repeat center center;
+        background-size: cover;
+        height: 350px;
+        width: 100%;
+}
+
+#jumbotron-title {
+       color: white; 
+       text-shadow: #444 0 1px 1px;
+       padding-left: 20px;
+       padding-top: 30px;
+}

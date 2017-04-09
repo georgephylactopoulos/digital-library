@@ -13,12 +13,15 @@
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search1.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Main-Menu.css">
 </head>
 
 <body>
     <div></div>
+
+    <!-- Navbar -->
     <div>
-        <nav class="navbar navbar-default navigation-clean-search">
+        <nav class="navbar navbar-default navbar-fixed-top navigation-clean-search">
             <div class="container">
                 <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Synpraxis - Digital Libary</a>
                     <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
@@ -40,6 +43,7 @@
             </div>
         </nav>
     </div>
+    <!-- End of Navbar -->
 
     <!-- Main menu -->
     <div class="features-boxed">
@@ -59,25 +63,31 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
-                    <div class="box"><i class="glyphicon glyphicon-education icon"></i>
-                        <h3 class="name">Εκπαίδευση </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
-                        <a href="#" class="learn-more"> </a>
-                    </div>
+                    <a href="#rights">
+                        <div class="box"><i class="glyphicon glyphicon-education icon"></i>
+                            <h3 class="name">Εκπαίδευση </h3>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="clearfix visible-sm"> </div>
+                
+                <div class="col-md-3 col-sm-6 item">
+                    <a href="#rights">
+                        <div class="box"><i class="fa fa-tree icon"></i>
+                            <h3 class="name">Περιβάλλον και Ενέργεια </h3>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
-                    <div class="box"><i class="fa fa-tree icon"></i>
-                        <h3 class="name">Περιβάλλον και Ενέργεια </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
-                        <a href="#rights" class="learn-more"> </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 item">
-                    <div class="box"><i class="glyphicon glyphicon-road icon"></i>
-                        <h3 class="name">Ανάπτυξη και υποδομές </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
-                        <a href="#rights" class="learn-more"> </a>
-                    </div>
+                    <a href="#rights">
+                        <div class="box"><i class="glyphicon glyphicon-road icon"></i>
+                            <h3 class="name">Ανάπτυξη και υποδομές </h3>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="row features">
@@ -90,24 +100,26 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
-                    <div class="box"><i class="glyphicon glyphicon-lock icon"></i>
-                        <h3 class="name">Ασφάλεια </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
-                        <a href="#" class="learn-more"> </a>
-                    </div>
+                    <a href="#rights">
+                        <div class="box"><i class="glyphicon glyphicon-lock icon"></i>
+                            <h3 class="name">Ασφάλεια </h3>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
-                    <div class="box"><i class="glyphicon glyphicon-briefcase icon"></i>
-                        <h3 class="name">Οικονομία και Εργασία </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
-                        <a href="#rights" class="learn-more"> </a>
-                    </div>
+                    <a href="#rights">
+                        <div class="box"><i class="glyphicon glyphicon-briefcase icon"></i>
+                            <h3 class="name">Οικονομία και Εργασία </h3>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
     <!-- End of Main Menu -->
-
+<!-- 
     <div id="rights" class="topic_title"> Κύκλοι σπουδών - Δικαιώματα </div>
     <div class="material_type"> Resources </div>
     <div class="resource-list">
@@ -207,8 +219,9 @@
           <h6 class="mb-1">A world made new : Eleanor Roosevelt and the Universal Declaration of Human Rights	Glendon, Mary Ann, (Random House, 2001)</h5>
           <h6 class="mb-1">Dieter Fleck, The Handbook of International Humanitarian Law</h5> 
     </ul>
-</div>
-    <hr>
+</div> -->
+
+    <!-- Footer  -->
     <div class="footer-clean">
         <footer>
             <div class="container">
@@ -253,13 +266,17 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a><a href="#"><i class="icon ion-social-linkedin"></i></a>
+                    <div class="col-md-3 item social">
+                        <a href="https://www.facebook.com/synpraxisgr/"><i class="icon ion-social-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UCDDsjXrxTvKxnmA4j0tR7TQ"><i class="icon ion-social-youtube"></i></a>
+                        <a href="https://www.linkedin.com/company-beta/12955450/?pathWildcard=12955450"><i class="icon ion-social-linkedin"></i></a>
                         <p class="copyright">syn+praxis © 2017</p>
                     </div>
                 </div>
             </div>
         </footer>
     </div>
+    <!-- End of footer -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
