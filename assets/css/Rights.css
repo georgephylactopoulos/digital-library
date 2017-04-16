@@ -3,16 +3,79 @@ body {
         background-color:#eef4f7;
 }
 
-.jumbotron {
-        background: url('../img/judge.jpg') no-repeat center center;
-        background-size: cover;
-        height: 350px;
-        width: 100%;
+
+@media only screen and (min-width: 500px) {
+  .jumbotron {
+          background: url('../img/judge.jpg') no-repeat center center;
+          background-size: cover;
+          height: 350px;
+          width: 100%;
+  }
 }
 
-#jumbotron-title {
-       color: white; 
-       text-shadow: #444 0 1px 1px;
-       padding-left: 20px;
-       padding-top: 30px;
+
+@media only screen and (min-width: 500px) {
+  #jumbotron-title {
+         color: white; 
+         text-shadow: #444 0 1px 1px;
+         padding-left: 20px;
+         padding-top: 30px;
+  }
+}
+
+div.topic_title {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:large;
+  padding-left:40px;
+  padding-top:10px;
+  font-weight:600;
+  font-size:20px;
+}
+
+.resource-list {
+  padding-left:60px;
+  padding-top:20px;
+  padding-right:60px;
+}
+
+.further-reading {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:13px;
+}
+
+div.material_type {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:small;
+  padding-left:60px;
+  padding-top:20px;
+  font-weight:800;
+  font-size:25px;
+}
+
+div.list-group-item {
+  font-size:10px;
+}
+
+div.multimedia_subsection {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:small;
+  padding-left:80px;
+  padding-top:10px;
+  font-weight:400;
+  font-size:20px;
+  display:inline-block;
+  padding-bottom: 10px;
+}
+
+
+body {
+  /*background-color:#a6bbd8;*/
+}
+
+img#agora_logo {
+  max-height:150px;
+}
+
+.well {
+  background: rgb(250, 250, 250);
 }

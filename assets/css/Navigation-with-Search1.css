@@ -224,71 +224,7 @@
   border-bottom:1px solid #ccc;
 }
 
-div.topic_title {
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:large;
-  padding-left:40px;
-  padding-top:10px;
-  font-weight:600;
-  font-size:20px;
-}
-
-.resource-list {
-  padding-left:60px;
-  padding-top:20px;
-  padding-right:60px;
-}
-
-div.material_type {
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:small;
-  padding-left:60px;
-  padding-top:10px;
-  font-weight:400;
-  font-size:20px;
-}
-
-div.further_readings_list {
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:small;
-  padding-left:60px;
-  padding-top:10px;
-  font-weight:400;
-  font-size:20px;
-  padding-right:60px;
-}
-
-div.list-group-item {
-  font-size:10px;
-}
-
-div.multimedia_subsection {
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:small;
-  padding-left:80px;
-  padding-top:10px;
-  font-weight:800;
-  font-size:20px;
-  display:inline-block;
-}
-
-img.video_preview {
-  max-height:150px;
-}
-
-img.podcast_preview {
-  max-height:70px;
-}
-
 img.topic_icon {
   max-height:69px;
-}
-
-body {
-  /*background-color:#a6bbd8;*/
-}
-
-img#agora_logo {
-  max-height:150px;
 }
 
