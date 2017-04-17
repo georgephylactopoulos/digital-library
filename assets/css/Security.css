@@ -22,7 +22,7 @@ body {
 
 /*@media only screen and (min-width: 500px) {*/
   .jumbotron {
-          background: url('../img/judge.jpg') no-repeat center center;
+          background: url('../img/safety.jpeg') no-repeat center center;
           background-size: cover;
           height: 350px;
           width: 100%;
@@ -95,4 +95,9 @@ img#agora_logo {
 
 .well {
   background: rgb(250, 250, 250);
+}
+
+.thumbnail {
+    border-width: 4px;
+    border-color: white;
 }

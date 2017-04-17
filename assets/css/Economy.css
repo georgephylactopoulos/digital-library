@@ -16,13 +16,13 @@ body {
         color: white; 
         text-shadow: #444 0 1px 1px;
         padding-left: 20px;
-        padding-top: 30px;
+        padding-top: 10px;
   }
 /*}*/
 
 /*@media only screen and (min-width: 500px) {*/
   .jumbotron {
-          background: url('../img/judge.jpg') no-repeat center center;
+          background: url('../img/economy.jpeg') no-repeat center center;
           background-size: cover;
           height: 350px;
           width: 100%;
